@@ -56,7 +56,7 @@ def handle_keyboard_events(event, spotify, cfg) -> None:
   elif event.name == volume_down_key:
     change_volume(spotify, 0 - volume_down_amt)
 
-def change_volume(spotify, diff):
+def change_volume(spotify, diff) -> None:
   try:
     playback = spotify.current_playback()
     
