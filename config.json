@@ -1,0 +1,12 @@
+{
+  "credentials": {
+    "spotify_client_id": "<your client id here>",
+    "spotify_client_secret": "<your client secret here>"
+  },
+  "controls": {
+    "volume_up": "f14",
+    "volume_down": "f13"
+  },
+  "volume_up_percent": 10,
+  "volume_down_percent": 10
+}
